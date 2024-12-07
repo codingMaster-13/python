@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def index_roue():
     return render_template('index.html')
 
