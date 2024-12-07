@@ -22,7 +22,11 @@ body {
     flex-direction: column;
     gap: 10px;
 }
-
+.account img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
 .account h1 {
     margin-bottom: 15px;
     text-align: center;
@@ -55,7 +59,7 @@ body {
     font-size: 1.2em;
     cursor: pointer;
 }
-.account .button span:hover{
+.account .button span span:hover{
     text-decoration: underline;
 }
 .account .button button{

@@ -8,7 +8,8 @@
 </head>
 <body>
     <div class="account">
-        <h1>Signup</h1>
+        <img src="{{url_for('static', filename='img/logo.png')}}" alt="">
+        <h1>SignUp</h1>
         <form action="/" method="post">
             <input type="text" placeholder="Enter your name" name="username">
             <br>
@@ -17,7 +18,7 @@
             <input type="password" placeholder="create your password" name="password">
             <br>
             <div class="button">
-                <span>I have already an account</span>
+                <span>I have already an account? <a href="/signin.html">SignIn</a></span>
                 <br>
                 <button>Sign up</button>
             </div>
