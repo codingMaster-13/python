@@ -9,7 +9,11 @@
 <body>
     <header>
         <h1>Todos...</h1>
-        <a href="/signin">Sign In</button>
+        {% if user %}
+            <span>{{user_img}}</span>
+        {% else %}
+            <a href="/signin">Sign In</button>
+        {% endif %}
     </header>
     <div class="container">
         <div class="input">
